@@ -3,19 +3,27 @@
   padding: 0;
 }
 
-body, html{
+body,
+html {
   height: 100%;
 }
 
 canvas {
-    background: linear-gradient(-45deg, rgba(238, 119, 82, 0.41), rgba(231, 60, 126, 0.4), rgba(35, 166, 213, 0.4), rgba(35, 213, 171, 0.41));
+  /* background: linear-gradient(
+    -45deg,
+    rgba(238, 119, 82, 0.41),
+    rgba(129, 106, 115, 0.4),
+    rgba(35, 166, 213, 0.4),
+    rgba(35, 213, 171, 0.41)
+  ); */
+  background: linear-gradient(-45deg, #febf63, #ede682, #ade498, #7fdbda);
   width: 100%;
   /* background: black; */
   height: 100vh;
-    animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
 }
 
-h1{
+h1 {
   z-index: 1;
   position: absolute;
   top: 200px;
@@ -25,10 +33,10 @@ h1{
   margin: 0;
   padding: 0;
   font-size: 50px;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   letter-spacing: 7px;
 }
 
 body::-webkit-scrollbar {
-    width: 0 !important
+  width: 0 !important;
 }
